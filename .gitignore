@@ -2,29 +2,32 @@
 node_modules
 .pnp
 .pnp.js
-yarn.lock
-package-lock.json
 
 # Testing
 coverage
 coverage.json
+typechain
+typechain-types
 
-# Next.js
-.next/
-out/
+# Production
 build
 dist
+out
 
 # Hardhat
 cache
 artifacts
-typechain
-typechain-types
 
 # Foundry
 cache/
 out/
 broadcast/
+
+# Next.js
+.next/
+out/
+build
+.vercel
 
 # Environment files
 .env
@@ -37,7 +40,6 @@ broadcast/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-*.log
 
 # IDE
 .idea
@@ -49,12 +51,5 @@ yarn-error.log*
 .DS_Store
 *.pem
 
-# Production
-build/
-dist/
-
-# Vercel
-.vercel
-
-# Local blockchain
-deployments/ 
+# Misc
+*.log 
