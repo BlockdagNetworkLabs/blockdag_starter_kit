@@ -1,0 +1,25 @@
+{
+  "name": "blockdag-contracts",
+  "version": "1.0.0",
+  "description": "BlockDAG Smart Contracts",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts --network primordial"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@openzeppelin/hardhat-upgrades": "^3.9.0",
+    "@types/node": "^20.11.24",
+    "ethers": "^6.11.1",
+    "hardhat": "^2.19.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.4.5"
+  }
+}
