@@ -18,7 +18,7 @@ A lightweight CLI tool to quickly scaffold BlockDAG blockchain applications with
 ## Quick Start
 
 ```bash
-npx @blockdag/create-blockdag-app@latest
+npx create-blockdag-dapp@latest
 ```
 
 
